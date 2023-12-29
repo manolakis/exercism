@@ -1,0 +1,9 @@
+{
+  "name": "go-training",
+  "image": "ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers-contrib/features/exercism-cli:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  }
+}

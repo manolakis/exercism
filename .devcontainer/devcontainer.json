@@ -1,5 +1,5 @@
 {
-  "name": "go-training",
+  "name": "exercism",
   "image": "ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/go:1": {},

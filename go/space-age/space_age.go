@@ -18,5 +18,10 @@ var years = map[Planet]float64{
 
 // Age returns how many ages represents some seconds in a planet
 func Age(seconds float64, planet Planet) float64 {
-	return seconds / years[planet]
+	planetYears, ok := years[planet]
+	if !ok {
+		return -1
+	}
+
+	return seconds / planetYears
 }
